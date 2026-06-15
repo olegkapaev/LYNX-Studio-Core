@@ -87,6 +87,11 @@ lynx-studio-core/
 └── README.md								# Project documentation (Документация проекта)
 ```
 
+## GETTING STARTED (Как запустить проект)
+
+**EN:** To quickly deploy this core template without using Git commands, navigate to the main page of this repository on GitHub, click the green "Code" button, and select "Download ZIP" to download the complete file structure directly to your computer. 
+**RU:** Чтобы быстро развернуть этот базовый шаблон без использования команд Git, перейдите на главную страницу этого репозитория на GitHub, нажмите зеленую кнопку «Code» и выберите «Download ZIP», чтобы скачать всю структуру файлов напрямую на свой компьютер.
+
 
 ## ENVIROMENT SETUP (Подготовка окружения)
 
