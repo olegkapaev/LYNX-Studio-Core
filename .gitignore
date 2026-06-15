@@ -1,0 +1,18 @@
+# Operating System Files (Системные файлы операционных систем)
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+._*
+
+# Package Manager Dependencies (Папки зависимостей сборщиков)
+node_modules/
+
+# Production Builds (Папки готовой сборки сайта и виджета)
+dist/
+
+# IDEs and Editors (Логи и кэш редакторов)
+*.log
+.eslintcache
+.stylelintcache
+.sass-cache

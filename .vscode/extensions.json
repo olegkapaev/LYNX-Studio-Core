@@ -1,0 +1,22 @@
+{
+	"recommendations": [
+		"anbuselvanrocky.bootstrap5-vscode",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"alefragnani.bookmarks",
+		"anbuselvanrocky.bootstrap5-vscode",
+		"kamikillerto.vscode-colorize",
+		"pranaygp.vscode-css-peek",
+		"vsls-contrib.gitdoc",
+		"ronnidc.nunjucks",
+		"luwenjiechn.nunjucks-vscode-snippets",
+		"christian-kohler.path-intellisense",
+		"tomoki1207.pdf",
+		"redhat.vscode-xml",
+		"nickdodd79.gulptasks",
+		"tanato.vscode-gulp",
+		"foxundermoon.shell-format",
+		"ms-edgedevtools.vscode-edge-devtools",
+		"okitavera.vscode-nunjucks-formatter",
+	]
+}

@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /								# Allow indexing the main page (Разрешить индексацию главной страницы)
+Allow: /pages/catalog.html				# Allow indexing the catalog (Разрешить индексацию каталога регламентов)
+Allow: /pages/legal.html				# Allow indexing the legal hub (Разрешить индексацию юридического хаба)
+Allow: /pages/terms.html				# Allow indexing the public offer (Разрешить индексацию публичной оферты)
+Allow: /pages/privacy.html				# Allow indexing the privacy policy (Разрешить индексацию политики конфиденциальности)
+
+Disallow: /api/							# Block backend processing scripts (Запретить индексацию бэкенд-скриптов)
+Disallow: /pages/order.html				# Block checkout form from search (Запретить индексацию корзины заказа)
+Disallow: /pages/consent.html			# Block raw data consent page (Запретить индексацию страницы согласия)
+Disallow: /403.html						# Block access denied error page (Запретить индексацию ошибки 403)
+Disallow: /404.html						# Block not found error page (Запретить индексацию ошибки 404)
+Disallow: /500.html						# Block server error page (Запретить индексацию ошибки 500)
+Disallow: /504.html						# Block gateway timeout error page (Запретить индексацию ошибки 504)
+Disallow: /maintenance.html				# Block maintenance placeholder page (Запретить индексацию страницы техработ)
+
+Sitemap: https://lynx-studio.ru			# Link to the sitemap file (Прямая ссылка на карту сайта)

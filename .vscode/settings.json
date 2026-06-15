@@ -1,0 +1,54 @@
+{
+	/*GIT & AUTOMATION (Управление Git и автоматизация)*/
+	"gitdoc.enabled": true,
+	"gitdoc.autoPush": "onCommit",
+	"git.autofetch": true,
+	"workbench.editor.enablePreview": false,
+	//
+	/*EDITOR INTERFACE (Интерфейс и поведение редактора)*/
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.hover.enabled": "off",
+	"editor.wordWrap": "on",
+	//
+	/*CODE FORMATTING (Форматирование и отступы)*/
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	//
+	/*FILE ASSOCIATIONS (Связи файлов и автоматика)*/
+	"files.autoSave": "off",
+	"files.associations": {
+		"*.njk": "html",
+		"**/src/njk/**/*.html": "html"
+	},
+	//
+	/*PANEL VISIBILITY (Видимость элементов в панели проекта)*/
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/node_modules": true,
+		"**/dist": false
+	},
+	//
+	/*EMMET SETTINGS (Настройки плагина Emmet)*/
+	"emmet.includeLanguages": {
+		"html": "html"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	//
+	/*DOCUMENTATION HOVER (Справочные подсказки стилей)*/
+	"css.hover.documentation": false,
+	"scss.hover.documentation": false,
+	//
+	/*BUILD SYSTEM DETECTION (Автообнаружение сценариев сборки)*/
+	"task.autoDetect": "on",
+	"gulp.autoDetect": "on",
+	"npm.autoDetect": "on",
+	//
+	/*TELEMETRY & PATHS (Телеметрия и системные пути)*/
+	"redhat.telemetry.enabled": false,
+    "git.path": "C:\\Users\\usr\\Documents\\PortableGit\\cmd\\git.exe",
+    "git.enabled": true
+}
