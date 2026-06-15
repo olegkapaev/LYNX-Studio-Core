@@ -1,37 +1,28 @@
-# STANDARDS.LYNX-STUDIO.RU
+# LYNX-STUDIO. CORE
 
 
 ## ABOUT THE PROJECT (О проекте)
 
-**EN:** This project serves as the official website for ordering printed editions of German DVS 2205 standards translated into Russian (structural design of thermoplastic tanks, vessels, and apparatus). The platform features a comprehensive inventory of the regulatory documentation, an interactive order processing system, and all required legal agreements.
-  
-**RU:** Данный проект — это официальный сайт для заказа переведенных на русский язык печатных изданий немецких стандартов серии DVS 2205 (расчет конструкций, резервуаров и аппаратов из термопластов). На платформе представлены перечень нормативной документации, интерактивная форма оформления заказа и необходимые юридические соглашения.
+**EN:** This section contains a brief overview of the website or service, detailing its core functionality and purpose. 
+**RU:** В этом разделе приводится краткое описание сайта или сервиса, его основных возможностей и назначения.
 
 
 ## KEY FEATURES (Ключевые особенности)
 
-**EN:**
-- **Printed Edition Details**: Brief information about the printed volume of translated standards.
-- **Order Form**: Simple interactive checkout for physical and legal entities with integrated **CDEK API** calculation for the printed book delivery.
-- **Legal Hub**: Public offer contract, privacy policy, and data processing consent pages required for selling physical goods.
-
-**RU:**
-- **Описание продукта**: Информация о печатном сборнике переведенных стандартов.
-- **Форма заказа**: Интерактивная форма для физ. и юр. лиц с автоматическим расчетом стоимости доставки печатного издания через **API СДЭК**.
-- **Юридический хаб**: Обязательные страницы документов: договор публичной оферты, политика конфиденциальности и согласие на обработку данных для продажи физических товаров.
+**EN:** This section details the main technical capabilities, tools, and interactive functions provided by this website or service. 
+**RU:** В этом разделе подробно описываются основные технические возможности, инструменты и интерактивные функции, предоставляемые данным сайтом или сервисом.
 
 
 ## TARGET AUDIENCE (Для кого этот сайт)
 
-**EN:** The materials are designed for companies and engineering specialists involved in the design, calculation, and manufacturing of industrial plastic tanks and thermoplastic process equipment.
-
-**RU:** Издание предназначено для компаний и инженерно-технических специалистов, занимающихся проектированием, расчетом и изготовлением промышленных пластиковых емкостей и технологического оборудования из термопластов.
+**EN:** This section defines the primary groups of users, professionals, or clients for whom this website or service is designed. 
+**RU:** В этом разделе определяются основные группы пользователей, специалистов или клиентов, для которых разработан данный сайт или сервис.
 
 
 ## TECHNICAL PROJECT STRUCTURE (Техническая структура проекта)
 
 ```
-standards.lynx-studio.ru/
+lynx-studio-core/
 │
 ├── .vscode/								# VS Code workspace options (Настройки рабочей области VS Code)
 │   ├── extensions.json						# Recommended workspace plugins (Список рекомендуемых плагинов проекта)
