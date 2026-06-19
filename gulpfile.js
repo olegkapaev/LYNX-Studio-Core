@@ -76,11 +76,20 @@ function moveSubFavicons(done) {
 		.on('end', done);
 }
 
+function moveFontFiles() {
+	// Возвращаем поток напрямую, Gulp сам поймет, когда файлы докопируются
+	return gulp.src('src/assets/fonts/**/*', { allowEmpty: true })
+		.pipe(gulp.dest('dist/fonts/'));
+}
+
 
 // COMPILE STYLES (Сборка стилей)
 
 function compileStyles() {
-	return gulp.src('src/assets/css/**/*.css', { allowEmpty: true })
+	return gulp.src([
+		'src/assets/css/style.css',
+		'src/assets/css/**/*.css'
+	], { allowEmpty: true })
 		.pipe(concat('style.css'))
 		.pipe(cleanCSS({ level: 2 }))
 		.pipe(rename({ suffix: '.min' }))
@@ -319,6 +328,7 @@ exports.build = gulp.series(
 		moveDocumentFiles,
 		moveRootFavicons,
 		moveSubFavicons,
+		moveFontFiles,
 		compileNunjucks,
 	),
 	compileHTML
